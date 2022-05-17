@@ -1,13 +1,13 @@
 <?php
 
-function palindrom($input)
+function prime($input)
 {
   // code goes here
 }
 
 function solution($input)
 {
-  return palindrom($input);
+  return prime($input);
 }
 
 

@@ -26,14 +26,14 @@ Within the cloned folder you should see the [index.php](./index.php) file. This 
 ```php
 # src/index.php
 
-function palindrom($input)
+function prime($input)
 {
   // code goes here
 }
 
 function solution($input)
 {
-  return palindrom($input);
+  return prime($input);
 }
 
 

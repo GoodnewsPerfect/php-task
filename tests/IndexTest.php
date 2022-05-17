@@ -6,14 +6,14 @@ require __DIR__."/../src/index.php";
 
 class IndexTest extends TestCase
 {
-  public function testManipulatingString()
-  {
-    $this->assertEquals(strtoupper('foo'), 'FOO');
-  }
+  // public function testManipulatingString()
+  // {
+  //   $this->assertEquals(strtoupper('foo'), 'FOO');
+  // }
 
   public function testSolution0()
   {
-    $input="madam";
+    $input=2;
     $result=solution($input);
 
     $this->assertEquals($result, true);
@@ -21,35 +21,35 @@ class IndexTest extends TestCase
 
   public function testSolution1()
   {
-    $input="random string";
+    $input=24;
     $result=solution($input);
     $this->assertEquals($result, false);
   }
 
   public function testSolution2()
   {
-    $input="wassamassaw";
+    $input=37;
     $result=solution($input);
     $this->assertEquals($result, true);
   }
 
   public function testSolution3()
   {
-    $input="satanoscillatemymetallicsonatas";
+    $input=73;
     $result=solution($input);
     $this->assertEquals($result, true);
   }
 
   public function testSolution4()
   {
-    $input="in girum imus nocte et consumimur igni";
+    $input=97;
     $result=solution($input);
     $this->assertEquals($result, true);
   }
 
   public function testSolution5()
   {
-    $input="No lemoned, no melon";
+    $input=56;
     $result=solution($input);
     $this->assertEquals($result, false);
   }
