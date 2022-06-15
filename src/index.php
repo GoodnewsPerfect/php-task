@@ -15,9 +15,9 @@ function prime($input)
   
 }
 
-//57 is an integer. you could change the numbers in testing for prime numbers 
+//47 is an integer. you could change the numbers in testing for prime numbers 
 
-$input = 57;
+$input = 47;
 $flag_val = prime($input);
 if ($flag_val == 1)
    echo "True";
